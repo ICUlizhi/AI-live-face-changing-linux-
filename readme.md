@@ -19,7 +19,11 @@
 ## facefusion  
 在云端linux运行, 在开源的facefusion基础上实现了本地摄像头流数据传输到远程计算机, 需要gpu, 换脸效果非常好, 但视频帧率不高
 
-![alt text](qlc换坤坤.png)
+<div style="text-align: center;">
+    <img src="qlc换坤坤.png" alt="图片描述" style="max-width: 100%; height: auto;">
+    <p>厉不厉害你坤哥</p>
+</div>
+
 
 ### 配置
 Python推荐3.10
