@@ -6,11 +6,13 @@
 > 置信度为 x 表示荣耀集团的检测程序认为有x的概率是ai换过的假人脸
 
 ## 任务描述
-实现ai换脸直播. 这一任务算力要求较高, 因此市面上能见到的软件基本采用的是直接找脸贴图. 实现表情捕捉变化, 头部转向则需要高性能显卡. 本项目中**faceswap**属于前者, **facefusion**属于后者.
+实现ai换脸直播. 
+
+这一任务算力要求较高, 因此市面上能见到的软件基本采用的是直接找脸贴图. 实现表情捕捉变化, 头部转向则需要高性能显卡. 本项目中**faceswap**属于前者, **facefusion**属于后者.
  
 ## faceswap
-在本地用cpu运行, 尝试性的程序
-简单粗暴的找脸贴图, 流畅但是效果逆天
+- 在本地用cpu运行, 尝试性的程序
+- 简单粗暴的找脸贴图, 流畅但是效果逆天
 
 ## 配置与使用
 参考文件夹内的readme
@@ -26,9 +28,9 @@
 
 
 ### 配置
-Python推荐3.10
-参考官方配置链接 [https://docs.facefusion.io/]
-可能遇到诸多cuda源文件缺失的问题, 需要手动安装, 比较繁琐
+- Python推荐3.10
+- 参考官方配置链接 [https://docs.facefusion.io/]
+- 可能遇到诸多cuda源文件缺失的问题, 需要手动安装, 比较繁琐
 ## 使用
 ```
 python facefusion.py run --skip-download --execution-providers cpu cuda --ui-layouts webcam
